@@ -1,6 +1,6 @@
 #include "dialogrun.h"
 #include "ui_dialogrun.h"
-
+#include <QMessageBox>
 System sys;
 
 DialogRun::DialogRun(QWidget *parent) :
@@ -38,8 +38,18 @@ void DialogRun::on_pushButton_2_clicked()
     bool frag_externa = 0;
 
     for(int i = 0;i<qtd_processos;i++){
+        ui->labelWarning1->setText("");
+        ui->labelWarning1_2->setText("");
         if(sys.getProcess(i).getDentroRam() == 0){ //and sys.getProcess(i).getTime() > 0
             int size_processo = sys.getProcess(i).getSizeProc();
+            if(size_processo > size_memoria){
+                QString aux_size_warning;
+                QString warning_3 = "Size of process ";
+                aux_size_warning.setNum(i+1);
+                warning_3.append(aux_size_warning);
+                warning_3.append(" is greater than size of main memory!");
+                QMessageBox::about(this,"Warning",warning_3);
+            }
             int livre = 0;
             int livre_total = 0;
             int posi = -1;
@@ -67,22 +77,34 @@ void DialogRun::on_pushButton_2_clicked()
                 sys.replaceProcess(i,aux_process);
 
                 //debug: (apagar)
-                int aux_dentro = aux_process.getDentroRam();
-                int aux_sys = sys.getProcess(i).getDentroRam();
-                qDebug()<<"\nDentro Ram Aux: "<<aux_dentro;
-                qDebug()<<"\nDentro Ram Sys: "<<aux_sys;
+                //int aux_dentro = aux_process.getDentroRam();
+                //int aux_sys = sys.getProcess(i).getDentroRam();
+                //qDebug()<<"\nDentro Ram Aux: "<<aux_dentro;
+                //qDebug()<<"\nDentro Ram Sys: "<<aux_sys;
                 //
                 //qDebug()<<"\nPosicao Inicial: "<<posi_inicial;
                 for(int j = posi_inicial; j<=posi;j++){
                     sys.replaceRAM(j,i+1);
                 }
             }
-            if(livre_total >= size_processo && posi == -1){
+            else if(livre_total >= size_processo and posi == -1){
                 frag_externa = 1;
-                qDebug()<<"\nFragmentacao Externa! Processo "<<i+1;
+                QString warning2 = "\nExternal fragmentation! Process ";
+                QString aux_warning2;
+                aux_warning2.setNum(i+1);
+                warning2.append(aux_warning2);
+                warning2.append("! Free total memory: ");
+                aux_warning2.setNum(livre_total);
+                warning2.append(aux_warning2);
+                ui->labelWarning1_2->setText(warning2);
             }
-            else if(posi == -1){
-                qDebug()<<"\nEspaco de memoria principal insuficiente! Processo "<<i+1;
+            else {//if(posi == -1)
+                QString warning1 = "\nNo free space in memory! Process ";
+                QString aux_warning1;
+                aux_warning1.setNum(i+1);
+                warning1.append(aux_warning1);
+                warning1.append("!");
+                ui->labelWarning1->setText(warning1);
             }
         }
         else if(sys.getProcess(i).getDentroRam() == 1 and sys.getProcess(i).getTime() != 0){
@@ -99,12 +121,6 @@ void DialogRun::on_pushButton_2_clicked()
             }
             aux_process.setTime(aux_tempo);
             sys.replaceProcess(i,aux_process);
-
-            //Debug
-            qDebug()<<"\nProcesso: "<<i;
-            qDebug()<<"\nTempo Aux: "<<aux_tempo;
-            int aux_tempo_sys = sys.getProcess(i).getTime();
-            qDebug()<<"\nTempo Sys: "<<aux_tempo_sys;
         }
     }
     update();
