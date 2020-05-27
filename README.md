@@ -1,7 +1,13 @@
 # OS_Memory_Allocation_Simulator
 
-Programa criado para a disciplina de Sistemas Operacionais pela Universidade do Vale do Itajaí.
+The alocation algorithm is "First Fit".
 
-Criado por: João Victor Santos Hütner
+Obs: Don't choose a big memory size and process size (like 400mb or so) cause of screen size limitations.
 
-Data: 26/05/2020
+University: Universidade do Vale do Itajaí.
+
+Software created for the OS subject.
+
+Dev: João Victor Santos Hütner
+
+Date: 26/05/2020
