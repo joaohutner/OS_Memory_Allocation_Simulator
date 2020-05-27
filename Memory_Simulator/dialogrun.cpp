@@ -44,10 +44,10 @@ void DialogRun::on_pushButton_2_clicked()
             int size_processo = sys.getProcess(i).getSizeProc();
             if(size_processo > size_memoria){
                 QString aux_size_warning;
-                QString warning_3 = "Size of process ";
+                QString warning_3 = "Size of process";
                 aux_size_warning.setNum(i+1);
                 warning_3.append(aux_size_warning);
-                warning_3.append(" is greater than the main memory size");
+                warning_3.append(" is greater than main memory size!");
                 QMessageBox::about(this,"Warning",warning_3);
             }
             int livre = 0;
@@ -75,14 +75,6 @@ void DialogRun::on_pushButton_2_clicked()
                 Process_ aux_process = sys.getProcess(i);
                 aux_process.setDentroRam(1);
                 sys.replaceProcess(i,aux_process);
-
-                //debug: (apagar)
-                //int aux_dentro = aux_process.getDentroRam();
-                //int aux_sys = sys.getProcess(i).getDentroRam();
-                //qDebug()<<"\nDentro Ram Aux: "<<aux_dentro;
-                //qDebug()<<"\nDentro Ram Sys: "<<aux_sys;
-                //
-                //qDebug()<<"\nPosicao Inicial: "<<posi_inicial;
                 for(int j = posi_inicial; j<=posi;j++){
                     sys.replaceRAM(j,i+1);
                 }

@@ -233,9 +233,9 @@ release/moc_dialogrun.cpp: ../Memory_Simulator/dialogrun.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
 		../Memory_Simulator/system.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
 		../Memory_Simulator/process_.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
 		release/moc_predefs.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/moc.exe
 	C:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\moc.exe $(DEFINES) --include C:/Users/Joao_Hutner/Desktop/Faculdade/Sistema_Operacional/Algoritmo/OS_Memory_Allocation_Simulator/build-Memory_Simulator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++ -IC:/Users/Joao_Hutner/Desktop/Faculdade/Sistema_Operacional/Algoritmo/OS_Memory_Allocation_Simulator/Memory_Simulator -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore -I. -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include ..\Memory_Simulator\dialogrun.h -o release\moc_dialogrun.cpp
@@ -350,8 +350,8 @@ release/moc_mainwindow.cpp: ../Memory_Simulator/mainwindow.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
 		../Memory_Simulator/process_.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
-		../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
+		../Memory_Simulator/system.h \
 		release/moc_predefs.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/moc.exe
 	C:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\moc.exe $(DEFINES) --include C:/Users/Joao_Hutner/Desktop/Faculdade/Sistema_Operacional/Algoritmo/OS_Memory_Allocation_Simulator/build-Memory_Simulator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++ -IC:/Users/Joao_Hutner/Desktop/Faculdade/Sistema_Operacional/Algoritmo/OS_Memory_Allocation_Simulator/Memory_Simulator -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore -I. -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include ..\Memory_Simulator\mainwindow.h -o release\moc_mainwindow.cpp
@@ -494,25 +494,12 @@ release/dialogrun.o: ../Memory_Simulator/dialogrun.cpp ../Memory_Simulator/dialo
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
 		../Memory_Simulator/system.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
 		../Memory_Simulator/process_.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
 		ui_dialogrun.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMessageBox \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\dialogrun.o ..\Memory_Simulator\dialogrun.cpp
 
 release/main.o: ../Memory_Simulator/main.cpp ../Memory_Simulator/mainwindow.h \
@@ -625,8 +612,8 @@ release/main.o: ../Memory_Simulator/main.cpp ../Memory_Simulator/mainwindow.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
 		../Memory_Simulator/process_.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
-		../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
+		../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
@@ -746,43 +733,17 @@ release/mainwindow.o: ../Memory_Simulator/mainwindow.cpp ../Memory_Simulator/mai
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
 		../Memory_Simulator/process_.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
-		../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
+		../Memory_Simulator/system.h \
 		ui_mainwindow.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QString \
 		../Memory_Simulator/dialogrun.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QDialog \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QPainter \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpainter.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpainter.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwindow.o ..\Memory_Simulator\mainwindow.cpp
 
 release/process_.o: ../Memory_Simulator/process_.cpp ../Memory_Simulator/process_.h \
@@ -850,12 +811,14 @@ release/process_.o: ../Memory_Simulator/process_.cpp ../Memory_Simulator/process
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qset.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer_impl.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\process_.o ..\Memory_Simulator\process_.cpp
 
 release/system.o: ../Memory_Simulator/system.cpp ../Memory_Simulator/system.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvector.h \
+		../Memory_Simulator/process_.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qglobal.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qconfig-bootstrapped.h \
@@ -878,12 +841,14 @@ release/system.o: ../Memory_Simulator/system.cpp ../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmutex.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qnumeric.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qversiontagging.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhash.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qchar.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qiterator.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlist.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qrefcount.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qarraydata.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhashfunctions.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstring.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qchar.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qbytearray.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qnamespace.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringliteral.h \
@@ -891,13 +856,9 @@ release/system.o: ../Memory_Simulator/system.cpp ../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringview.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringbuilder.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qpair.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvector.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontainertools_impl.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qpoint.h \
-		../Memory_Simulator/process_.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhash.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlist.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qbytearraylist.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringlist.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qregexp.h \
@@ -920,7 +881,8 @@ release/system.o: ../Memory_Simulator/system.cpp ../Memory_Simulator/system.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qset.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer_impl.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVector
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\system.o ..\Memory_Simulator\system.cpp
 
 release/moc_dialogrun.o: release/moc_dialogrun.cpp 
