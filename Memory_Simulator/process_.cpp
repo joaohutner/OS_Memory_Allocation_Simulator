@@ -26,7 +26,17 @@ void Process_::imprime()
     cout <<"\nTime: "<<this->getTime()<<endl;
 }
 
+bool Process_::getDentroRam() const
+{
+    return dentroRam;
+}
+
+void Process_::setDentroRam(bool value)
+{
+    dentroRam = value;
+}
+
 Process_::Process_()
 {
-
+    this->dentroRam = 0;
 }

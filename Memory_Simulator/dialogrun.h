@@ -2,7 +2,7 @@
 #define DIALOGRUN_H
 
 #include <QDialog>
-
+#include <QPainter>
 #include "system.h"
 
 namespace Ui {
@@ -17,6 +17,10 @@ public:
     explicit DialogRun(QWidget *parent = nullptr);
     explicit DialogRun(System sys,QWidget *parent = nullptr);
     ~DialogRun();
+
+    virtual void paintEvent(QPaintEvent *event);
+private slots:
+    void on_pushButton_2_clicked();
 
 private:
     Ui::DialogRun *ui;
