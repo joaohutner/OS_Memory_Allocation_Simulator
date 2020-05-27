@@ -1,6 +1,6 @@
 # OS_Memory_Allocation_Simulator
 
-The alocation algorithm is "First Fit".
+The allocation algorithm is "First Fit".
 
 Obs: Don't choose a big memory size and process size (like 400mb or so) cause of screen size limitations.
 
