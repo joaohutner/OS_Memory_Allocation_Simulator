@@ -47,7 +47,7 @@ void DialogRun::on_pushButton_2_clicked()
                 QString warning_3 = "Size of process ";
                 aux_size_warning.setNum(i+1);
                 warning_3.append(aux_size_warning);
-                warning_3.append(" is greater than size of main memory!");
+                warning_3.append(" is greater than the main memory size");
                 QMessageBox::about(this,"Warning",warning_3);
             }
             int livre = 0;
